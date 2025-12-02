@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AskMeIdentity</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Righteous&family=Rowdies:wght@300;400;700&family=Saira:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Righteous&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Righteous&family=Saira:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .saira {
+            font-family: "Saira", sans-serif;
+        }
+
+        .saira-600 {
+            font-family: "Saira", sans-serif;
+            font-weight: 600;
+        }
+
+        .righteous {
+            font-family: "Righteous", sans-serif;
+        }
+
+        .righteous-regular {
+            font-family: "Righteous", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+
+        .rowdies-light {
+            font-family: "Rowdies", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .rowdies-regular {
+            font-family: "Rowdies", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .rowdies-bold {
+            font-family: "Rowdies", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="dashboard">
+        <header id="header" class="h-[80px] box-border flex px-[20px]  lg:px-[100px] box-border flex ">
+            <div class="h-full w-1/4 flex  items-center lg:w-1/3">
+                <img class="hidden md:block h-full" src="./assets/Askmeidentitylogo.png" alt="">
+                <i class="fa-solid fa-bars text-xl md:invisible"></i>
+            </div>
+            <div class="flex items-center justify-between w-3/4">
+                <div>
+                    <nav class="gap-x-[30px] font-medium hidden md:flex" style="font-family: Righteous, sans-serif;">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Courses</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                </div>
+                <div class=" hidden gap-x-[10px] md:flex">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class=" flex items-center gap-x-5 text-sm" style="font-family: Saira, sans-serif;">
+                    <a href="#" class="underline ">Login</a>
+                    <button
+                        class="w-[100px] h-[40px] rounded-md bg-linear-to-r from-blue-800 to-purple-700 text-white">Signup</button>
+                </div>
+            </div>
+        </header>
+        <div id="content_area"
+            class=" flex justify-center pb-[65px]  bg-linear-to-bl from-blue-950 to-violet-700  px-[30px] md:px-[20px] lg:px-[100px] md:pb-[0px] righteous relative">
+            <div id="content" class="md:w-1/2 text-white  pt-[30px] md:pt-[100px] ">
+                <p class="text-[10px] md:text-[12px] tracking-[2px] mb-5 font-110">SUCCSESSFULL COACHES ARE VISIONARIES
+                </p>
+                <h1 class="text-[40px] md:text-[53px] leading-[50px] md:leading-[60px] tracking-[1px] mb-10">Good <span
+                        style="color:#0E38CD;">coaching</span> is <br /> good teaching & <br> nothing else.</h1>
+                <div class="flex gap-x-[30px] items-center mb-13">
+                    <button class="w-[140px] h-[45px] border border-white border-[2px] text-xs rounded-md">View
+                        Courses</button>
+                    <p class="text-xs">Get Free Consultation</p>
+                </div>
+                <div>
+                    <div>
+                        <div class="w-[350px] h-[50px] bg-white rounded-sm flex items-center gap-x-[20px] p-[10px]">
+                            <input type="text" placeholder="What do you want to learn today?"
+                                class="text-indigo-950 text-xs w-2/3 text-center">
+                            <div class="">
+                                <button
+                                    class="w-[100px] h-[35px] rounded-md bg-linear-to-r from-blue-800 to-purple-700 text-white text-[11px] flex justify-center items-center gap-x-2">
+                                    <i class="fa-solid fa-magnifying-glass"></i>Search
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="cont_img" class=" w-[540px] h-[630px] box-border relative hidden md:block">
+                <div class="absolute top-35 h-[200px] w-[200px] flex gap-x-4">
+                    <img class="h-[100px]" src="./assets/middleline.png" alt="">
+                    <div class="righteous text-white">
+                        <h4 class="mb-[7px] mt-[-7px] text-[11px]">Shyam</h4>
+                        <p class="mb-[10px] font-thin text-[10px]">In a coaching role, you ask the questions and rely
+                            more on your
+                            staff, who become the experts, to provide the information.</p>
+                        <p style="color: #0E38CD;" class=" text-[10px]">4.9</p>
+                    </div>
+                </div>
+                <div class="w-[100%] flex justify-end ">
+                    <img src="./assets/womanremovebg.png" class="w-[440px] h-[630px]">
+                </div>
+            </div>
+            <div class=" hidden absolute bottom-0 right-[45%] xl:block">
+                <img class="w-[200px]" src="./assets/Ushape1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="worked_with"
+        class="w-[screen] h-[100px] bg-linear-to-b from-blue-700 to-purple-500 py-[40px] md:py-[20px]">
+        <div class="grid grid-cols-6 px-[20px] lg:px-[100px] flex items-center ">
+            <div class="flex justify-center"><img class="w-[50px] md:w-[100px]" src="./assets/spotify.png" alt=""></div>
+            <div class="flex justify-center"><img class="w-[50px] md:w-[100px]" src="./assets/amazon.png" alt=""></div>
+            <div class="flex justify-center"><img class="w-[50px] md:w-[100px]" src="./assets/spotify.png" alt=""></div>
+            <div class="flex justify-center"><img class="w-[50px] md:w-[100px]" src="./assets/cisco.png" alt=""></div>
+            <div class="flex justify-center"><img class="w-[50px] md:w-[100px]" src="./assets/logitech.png" alt="">
+            </div>
+            <div class="flex justify-center"><img class="w-[50px] md:w-[100px]" src="./assets/spotify.png" alt=""></div>
+
+        </div>
+    </section>
+
+    <section id="featured-course"
+        class="w-[screen] py-[40px] px-[25px] lg:p-[80px] relative bg-linear-to-b from-white to-sky-100">
+        <div
+            class="w-[70px] h-[70px] rounded-full border border-cyan-100 border-12 absolute top-18 left-40 hidden lg:block">
+        </div>
+        <h2 class="text-center font-bold text-[30px] rowdies-regular">Featured <span
+                style="color: #4883FF;">Course</span></h2>
+        <p class="text-center righteous text-[17px] tracking-[2px] mb-[30px] lg:mb-[110px]">THE FEATURE COURSES ARE WE
+            INVENTED OUR
+            TEACHING PART</p>
+
+        <div class="flex justify-center">
+            <div
+                class="grid grid-cols-1 sm:content-center grid-rows-2 md:grid-cols-2 lg:grid-cols-3 saira flex gap-y-[10px] md:gap-x-[10px] lg:gap-[30px] box-border lg:pr-[20px] mb-[60px]">
+
+                <div class="w-[350px] h-[390px] rounded-[15px] bg-white text-slate-700 box-border">
+                    <div class="h-[55%]"><img class="rounded-t-[15px]" src="./assets/course1.png" alt=""></div>
+                    <div class="h-[45%] p-[20px]">
+                        <div class="flex justify-between text-[10px] mb-[20px] text-medium font-medium">
+                            <p>1957 Students</p>
+                            <p>01hr 59m</p>
+                        </div>
+                        <h2 class="mb-[20px] font-semibold">Motion Graphics: Create a Nice Typography Animation</h2>
+                        <div class="flex justify-between font-semibold">
+                            <h4>Rs.499</h4>
+                            <p><i class="fa-solid fa-cart-shopping"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[350px] h-[390px] rounded-[15px] bg-white text-slate-700">
+                    <div class="h-[55%]"><img class="rounded-t-[15px]" src="./assets/course2.png" alt=""></div>
+                    <div class="h-[45%] p-[20px]">
+                        <div class="flex justify-between text-[10px] mb-[20px] text-medium font-medium">
+                            <p>9575 Students</p>
+                            <p>01hr 59m</p>
+                        </div>
+                        <h2 class="mb-[20px] font-semibold">Advance PHP knowledge with JS to make smart web</h2>
+                        <div class="flex justify-between font-semibold">
+                            <h4>Rs.499</h4>
+                            <p><i class="fa-solid fa-cart-shopping"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[350px] h-[390px] rounded-[15px] bg-white text-slate-700">
+                    <div class="h-[55%]"><img class="rounded-t-[15px]" src="./assets/course3.png" alt=""></div>
+                    <div class="h-[45%] p-[20px]">
+                        <div class="flex justify-between text-[10px] mb-[20px] text-medium font-medium">
+                            <p>2957 Students</p>
+                            <p>02hr 49m</p>
+                        </div>
+                        <h2 class="mb-[20px] font-semibold">Education Software and PHP and JS System Script</h2>
+                        <div class="flex justify-between font-semibold">
+                            <h4>Rs.499</h4>
+                            <p><i class="fa-solid fa-cart-shopping"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[350px] h-[390px] rounded-[15px] bg-white text-slate-700">
+                    <div class="h-[55%]"><img class="rounded-t-[15px]" src="./assets/course4.png" alt=""></div>
+                    <div class="h-[45%] p-[20px]">
+                        <div class="flex justify-between text-[10px] mb-[20px] text-medium font-medium">
+                            <p>5747 Students</p>
+                            <p>01hr 49m</p>
+                        </div>
+                        <h2 class="mb-[20px] font-semibold">The Complete Financial Analyst Training & Investing</h2>
+                        <div class="flex justify-between font-semibold">
+                            <h4>Rs.499</h4>
+                            <p><i class="fa-solid fa-cart-shopping"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[350px] h-[390px] rounded-[15px] bg-white text-slate-700">
+                    <div class="h-[55%]"><img class="rounded-t-[15px]" src="./assets/course5.png" alt=""></div>
+                    <div class="h-[45%] p-[20px]">
+                        <div class="flex justify-between text-[10px] mb-[20px] text-medium font-medium">
+                            <p>458 Students</p>
+                            <p>03hr 00m</p>
+                        </div>
+                        <h2 class="mb-[20px] font-semibold">Learn 3D Modelling and Design for Beginners</h2>
+                        <div class="flex justify-between font-semibold">
+                            <h4>Rs.499</h4>
+                            <p><i class="fa-solid fa-cart-shopping"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[350px] h-[390px] rounded-[15px] bg-white text-slate-700">
+                    <div class="h-[55%]"><img class="rounded-t-[15px]" src="./assets/course6.png" alt=""></div>
+                    <div class="h-[45%] p-[20px]">
+                        <div class="flex justify-between text-[10px] mb-[20px] text-medium font-medium">
+                            <p>1957 Students</p>
+                            <p>01hr 59m</p>
+                        </div>
+                        <h2 class="mb-[20px] font-semibold">Motion Graphics: Create a Nice Typography Animation</h2>
+                        <div class="flex justify-between font-semibold">
+                            <h4>Rs.499</h4>
+                            <p><i class="fa-solid fa-cart-shopping"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center w-full">
+            <button
+                class="w-[150px] h-[45px] righteous rounded-md bg-linear-to-r from-blue-800 to-purple-700 text-white text-[13px]  flex justify-center items-center gap-x-2">
+                Explore Courses
+            </button>
+        </div>
+    </section>
+
+    <section id="why"
+        class="bg-linear-to-bl from-indigo-700 to-blue-300 text-white righteous py-[70px] relative box-border">
+        <h1 class="text-center text-[30px] mb-[10px]">Why <span style="color: #0E38CD;">learn</span> with our courses?
+        </h1>
+        <p class="text-center saira text-[18px] mb-[60px]">We are providing the best courses and top classes.And <br>
+            extradinery placement training.....</p>
+
+        <div class="flex justify-center box-border">
+            <div class="flex flex-col md:flex-row justify-center gap-x-[10px] box-border">
+                <div class="w-[210px] h-[200px] flex flex-col items-center box-border">
+                    <img class="w-[50px] mb-[30px]" src="./assets/learn.png" alt="">
+                    <h1 class="mb-[15px]">01. Learn</h1>
+                    <p class="text-[11px] text-center">Learn continually. There is always <br> “one more thing”to learn.
+                    </p>
+                </div>
+                <div class="w-[100px] h-[200px] flex justify-center hidden md:flex">
+                    <img class="h-[180px] " src="./assets/rightLine.png" alt="">
+                </div>
+                <div class="w-[210px] h-[200px] flex flex-col items-center">
+                    <img class="w-[50px] mb-[30px]" src="./assets/graduate.png" alt="">
+                    <h1 class="mb-[15px]">02. Graduate</h1>
+                    <p class="text-[11px] text-center">Be bold,be courageous,<br> be your best.</p>
+                </div>
+                <div class="w-[100px] h-[200px] flex justify-center hidden md:flex">
+                    <img class="h-[180px]" src="./assets/rightLine.png" alt="">
+                </div>
+                <div class="w-[210px] h-[200px] flex flex-col items-center">
+                    <img class="w-[50px] mb-[30px]" src="./assets/work.png" alt="">
+                    <h1 class="mb-[15px]">03. Work</h1>
+                    <p class="text-[11px] text-center">Great companies are built in the office,with hard work put <br>
+                        in by team.</p>
+                </div>
+            </div>
+
+
+
+
+    </section>
+
+    <section id="top_categories"
+        class="bg-linear-to-b from-white to-blue-100 py-[80px] px-[70px] righteous box-border">
+        <h1 class="text-[32px] text-center">Top <span style="color: #0E38CD;">Categories</span></h1>
+        <p class="text-[17px] text-center text-slate-600 mb-[80px]">100+ unique online course list designs</p>
+
+        <div class="grid grid-cols-2 gap-y-[15px] md:grid-cols-3 lg:grid-cols-6 flex justify-center gap-x-[15px] box-border">
+            <div class="flex justify-center">
+                <div
+                    class="bg-white w-[170px] h-[250px] rounded-[10px] flex flex-col items-center gap-[30px] py-[30px] box-border">
+                    <img class="w-[60px]" src="./assets/categories1.png" alt="">
+                    <h3 class="text-center text-slate-700 text-[17px]">Digtal <br> Marketing</h3>
+                    <p class="text-center text-slate-600 text-[12px]">25 Courses</p>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div
+                    class="bg-white w-[170px] h-[250px] rounded-[10px] flex flex-col items-center gap-[30px] py-[30px] box-border">
+                    <img class="w-[60px]" src="./assets/categories2.png" alt="">
+                    <h3 class="text-center text-slate-700 text-[17px]">Web <br>Development</h3>
+                    <p class="text-center text-slate-600 text-[12px]">16 Courses</p>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div
+                    class="bg-white w-[170px] h-[250px] rounded-[10px] flex flex-col items-center gap-[30px] py-[30px] box-border">
+                    <img class="w-[60px]" src="./assets/categories3.png" alt="">
+                    <h3 class="text-center text-slate-700 text-[17px]">Art & <br>Humanities</h3>
+                    <p class="text-center text-slate-600 text-[12px]">76 Courses</p>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div
+                    class="bg-white w-[170px] h-[250px] rounded-[10px] flex flex-col items-center gap-[30px] py-[30px] box-border">
+                    <img class="w-[60px]" src="./assets/categories4.png" alt="">
+                    <h3 class="text-center text-slate-700 text-[17px]">Personal <br>Development</h3>
+                    <p class="text-center text-slate-600 text-[12px]">22 Courses</p>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div
+                    class="bg-white w-[170px] h-[250px] rounded-[10px] flex flex-col items-center gap-[30px] py-[30px] box-border">
+                    <img class="w-[60px]" src="./assets/categories5.png" alt="">
+                    <h3 class="text-center text-slate-700 text-[17px]">IT and <br>Software</h3>
+                    <p class="text-center text-slate-600 text-[12px]">110 Courses</p>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div
+                    class="bg-white w-[170px] h-[250px] rounded-[10px] flex flex-col items-center gap-[30px] py-[30px] box-border">
+                    <img class="w-[60px]" src="./assets/categories6.png" alt="">
+                    <h3 class="text-center text-slate-700 text-[17px]">Graphic <br>Design</h3>
+                    <p class="text-center text-slate-600 text-[12px]">85 Courses</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="sub_review_testimnials">
+        <div id="subscribe" class="flex justify-center py-[100px]">
+            <div id="sub_container" class="w-[900px] h-[300px] rounded-[15px] flex flex-col items-center bg-gradient-to-tr from-sky-200 via-blue-500  to-fuchsia-600 py-[50px] righteous relative">
+                <h1 class="text-white text-[30px] text-center font-semiblod">Subscribe For Get Update <br> Every New Courses</h1>
+                <p class="text-white text-[11px] text-center mb-[30px] ">20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+                <div class="bg-indigo-300 rounded-[6px] w-[350px] h-[40px] flex justify-between pl-[20px]">
+                    <input class="text-white border-none outline-none text-[11px]" type="email" placeholder="enter your email">
+                    <button class="h-[40px] w-[100px] text-white text-[11px] bg-blue-700 rounded-r-[6px]">Subscribe</button>
+                </div>
+                <img class="w-[40px] absolute top-10 left-10" src="./assets/subsribers1.png" alt="">
+                <img class="w-[40px] absolute top-30 left-30" src="./assets/subsribers2.png" alt="">
+                <img class="w-[40px] absolute top-50 left-13" src="./assets/subsribers3.png" alt="">
+                <img class="w-[40px] absolute top-10 right-10" src="./assets/subsribers4.png" alt="">
+                <img class="w-[40px] absolute top-30 right-30" src="./assets/subsribers5.png" alt="">
+                <img class="w-[40px] absolute top-50 right-13" src="./assets/subsribers6.png" alt="">
+                <img class="w-[60px] absolute bottom-[-20px] left-[-35px]" src="./assets/Polygon1.png" alt="">
+                <img class="w-[60px] absolute top-1 left-95" src="./assets/Polygon1.png" alt="">
+                <img class="w-[60px] absolute top-1 left-95" src="./assets/Polygon1.png" alt="">
+                <img class="w-[60px] absolute top-1 left-95" src="./assets/Polygon1.png" alt="">
+                
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+
+</html>
